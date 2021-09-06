@@ -1,0 +1,35 @@
+.todo-app {
+  position: relative;
+  width: 65%;
+  padding: 30px 30px 15px;
+  background: white;
+  border: 1px solid;
+  border-color: #dfdcdc #d9d6d6 #ccc;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px rgba(45, 56, 146, 0.32);
+  margin: 20px auto;
+}
+
+.todo-title{
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #2C3891;
+}
+
+.space-btw{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .todo-title{
+    font-weight: normal;
+    font-size: 20px;
+  }
+}
+
+
+  

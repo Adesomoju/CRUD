@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body, div, span,
+h1, p, ul, li {
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background: rgba(130, 140, 217, 0.28);;
+  font-size: 16px;
+  line-height: 22px;
+  color: #404040;
+  font-family: 'Lucida Grande', Verdana, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.btn {
+  cursor: pointer;
+  vertical-align: bottom;
+  font-size: 15px;
+  background: lightslategrey;
+  color: #FFF;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 0px;
+}
+
+.btn:hover {
+  background: #001E6C;
+}
+
+.btn-red {
+  background: red;
+}
+
+.btn-green {
+  background: green;
+}
+
+.btn-red:hover {
+  background: darkred;
+}
+
+.app-title {
+  margin-top: 30px;
+  font-size: 30px;
+  line-height: 52px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -0.8px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.space-even{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 480px) {
+  .btn {
+    cursor: pointer;
+    font-size: 13px;
+    color: #FFF;
+    padding: 10px 14px;
+  }
+}
+

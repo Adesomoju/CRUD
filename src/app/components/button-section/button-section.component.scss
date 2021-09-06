@@ -1,0 +1,14 @@
+.todo-input {
+    padding: 8px 10px;
+    font-size: 15px;
+    line-height: 20px;
+    border: solid 1px #dddddd;
+    border-radius: 5px;
+    flex-grow: 1;
+  }
+  
+  :host(:not([hidden])) {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }

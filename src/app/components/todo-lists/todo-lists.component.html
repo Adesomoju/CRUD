@@ -1,0 +1,16 @@
+<div class="todo-app">
+    <div class="space-btw">
+        <div class="todo-title">CRUD Todo Application</div>
+        <div>
+            <button class="btn btn-red" (click)="removeAll()"> Clear </button>
+        </div>
+    </div>
+
+    <app-button-section (submit)="addItem($event)"></app-button-section>
+
+    <ul>
+        <li *ngFor="let todoItem of todoList">
+            <app-todo-item [item]="todoItem" (remove)="removeItem($event)" (update)="updateItem($event.item, $event.changes)"></app-todo-item>
+        </li>
+    </ul>
+</div>

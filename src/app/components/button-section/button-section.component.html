@@ -1,0 +1,8 @@
+<div>
+    <div class="mb-10">
+        <input class="todo-input" #inputElementRef placeholder="Enter text" (keyup.enter)="submitValue($event.target.value)">
+    </div>
+    <div>
+        <button class="btn" (click)="submitValue(inputElementRef.value)"> Save </button>
+    </div>
+</div>
